@@ -5,7 +5,9 @@
 3.Insert the values in table in sql developer
 
    select *from QUERY_MASTER;
+   
    insert into query_master values(1,'sree','What is HTML?','ravi','Hyper Text Markup Language','java');
+   
    commit;
 
 
