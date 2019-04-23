@@ -17,6 +17,7 @@ public class QueryMasterController {
 	private QueryMasterImpl queryService;
 
 	int queryid;
+	//finding the table by id
 
 	@PostMapping("/show")
 	public ModelAndView ManagerLogin(@RequestParam int id) {
